@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="464.0" prefWidth="569.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.CONSOLIDATEController">
+   <children>
+      <ImageView fitHeight="401.0" fitWidth="569.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/moneyjarshutterstock.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="106.0" layoutY="107.0" prefHeight="22.0" prefWidth="103.0" text="         A/C*" textFill="#bf1676" />
+      <TextField fx:id="FIRSTACCOUNT" layoutX="181.0" layoutY="105.0" promptText="FIRST A/C*" />
+      <TextField fx:id="SECOUNDACCOUNT" layoutX="181.0" layoutY="188.0" promptText="SECOUND A/C*" />
+      <Label layoutX="106.0" layoutY="189.0" prefHeight="22.0" prefWidth="103.0" text="         A/C*" textFill="#bf1676" />
+      <Label layoutX="106.0" layoutY="150.0" prefHeight="22.0" prefWidth="103.0" text="        PIN*" textFill="#bf1676" />
+      <TextField fx:id="FIRSTPIN" layoutX="181.0" layoutY="148.0" promptText="FIRST A/C PIN" />
+      <TextField fx:id="SECOUNDPIN" layoutX="181.0" layoutY="230.0" promptText="SECOUND A/C PIN" />
+      <Label layoutX="103.0" layoutY="231.0" prefHeight="22.0" prefWidth="103.0" text="         PIN*" textFill="#bf1676" />
+      <Pane layoutX="-2.0" layoutY="1.0" prefHeight="62.0" prefWidth="569.0" style="-fx-background-color: #E6E6FA;">
+         <children>
+            <ImageView fitHeight="62.0" fitWidth="140.0" layoutX="6.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/2000px-Axis_Bank_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="COONSOLIDATE" layoutX="230.0" layoutY="321.0" mnemonicParsing="false" onAction="#CONSOLIDATE" prefHeight="25.0" prefWidth="103.0" style="-fx-background-color: #cc27a8;" text="CONSOLIDATE" textFill="#cdc6c6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="HOME" layoutX="451.0" layoutY="95.0" mnemonicParsing="false" onAction="#HOME" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #cc27a8;" text="HOME" textFill="#eeeaed">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

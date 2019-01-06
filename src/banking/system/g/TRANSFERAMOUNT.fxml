@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.TRANSFERAMOUNTController">
+   <children>
+      <Pane prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: #E6E6FA;">
+         <children>
+            <ImageView fitHeight="65.0" fitWidth="146.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/2000px-Axis_Bank_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="353.0" fitWidth="600.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="130.0" layoutY="107.0" opacity="0.56" prefHeight="25.0" prefWidth="65.0" style="-fx-background-color: #E6E6FA;" text="USER A/C*" textFill="#c308a4" />
+      <Label layoutX="112.0" layoutY="151.0" opacity="0.65" prefHeight="25.0" prefWidth="83.0" style="-fx-background-color: #E6E6FA;" text="RECIEVER A/C*" textFill="#b516a8" />
+      <TextField fx:id="RECIEVERACCOUNT" layoutX="202.0" layoutY="151.0" promptText="RECIEVER A/C" />
+      <TextField fx:id="AMOUNT" layoutX="202.0" layoutY="191.0" promptText="AMOUNT" />
+      <Label layoutX="106.0" layoutY="191.0" opacity="0.6" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: #E6E6FA;" text="      AMOUNT*" textFill="#b516a8" />
+      <Button fx:id="TRANSFERBUTTON" layoutX="242.0" layoutY="256.0" mnemonicParsing="false" onAction="#TRANSFERBUTTON" prefHeight="25.0" prefWidth="83.0" text="TRANSFER" textFill="#cd0e87" />
+      <Button fx:id="HOME" layoutX="496.0" layoutY="95.0" mnemonicParsing="false" onAction="#HOME" text="HOME" textFill="#e10cba" />
+      <Label layoutX="109.0" layoutY="225.0" opacity="0.6" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: #E6E6FA;" text="      PIN*" textFill="#b516a8" />
+      <TextField fx:id="PIN" layoutX="202.0" layoutY="225.0" promptText="PIN" />
+      <Label fx:id="label" layoutX="207.0" layoutY="107.0" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: white;" text="Label" />
+   </children>
+</AnchorPane>

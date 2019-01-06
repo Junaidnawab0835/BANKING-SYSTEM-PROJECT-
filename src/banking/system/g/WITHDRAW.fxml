@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="383.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.WITHDRAWController">
+   <children>
+      <Pane layoutY="-2.0" prefHeight="59.0" prefWidth="600.0" style="-fx-background-color: #E6E6FA;">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="200.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/2000px-Axis_Bank_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="338.0" fitWidth="600.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/photo-1444201716572-c60ec66d0494-608x336.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="RECIEVERCNIC" layoutX="165.0" layoutY="111.0" promptText=" CNIC" />
+      <TextField fx:id="AMOUNT" layoutX="164.0" layoutY="181.0" promptText="AMOUNT" />
+      <Button fx:id="WITHDRAW" layoutX="239.0" layoutY="276.0" mnemonicParsing="false" onAction="#WITHDRAW" text="WITHDRAW" textFill="#cd0a92" />
+      <Label layoutX="65.0" layoutY="111.0" prefHeight="25.0" prefWidth="86.0" text="              CNIC*" textFill="#cd20a4" />
+      <Label layoutX="70.0" layoutY="180.0" prefHeight="25.0" prefWidth="93.0" text="       AMOUNT*" textFill="#d0138e" />
+      <Button fx:id="HOME" layoutX="518.0" layoutY="63.0" mnemonicParsing="false" onAction="#HOME" text="HOME" textFill="#da09a6" />
+      <Label layoutX="36.0" layoutY="148.0" prefHeight="25.0" prefWidth="115.0" text="ACCOUNT NUMBER*" textFill="#cd20a4" />
+      <Label layoutX="62.0" layoutY="212.0" prefHeight="25.0" prefWidth="93.0" text="            PIN*" textFill="#d0138e" />
+      <TextField fx:id="PIN" layoutX="163.0" layoutY="212.0" promptText="PIN" />
+      <Label fx:id="label" layoutX="165.0" layoutY="144.0" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: white;" text="Label" />
+   </children>
+</AnchorPane>

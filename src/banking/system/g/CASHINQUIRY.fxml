@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="406.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.CASHINQUIRYController">
+   <children>
+      <Pane prefHeight="72.0" prefWidth="600.0" style="-fx-background-color: #E6E6FA;">
+         <children>
+            <ImageView fitHeight="62.0" fitWidth="164.0" layoutX="8.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/2000px-Axis_Bank_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="465.0" fitWidth="600.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/8ecb8b5c10a19ccbe1daba7bc38ec77cw-c323171xd-w685_h860_q80.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="homebutton" layoutX="506.0" layoutY="94.0" mnemonicParsing="false" onAction="#homebutton" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: #8B008B;" text="HOME" textFill="#d9c3da" />
+      <Label layoutX="125.0" layoutY="140.0" prefHeight="25.0" prefWidth="66.0" text="First Name" textFill="#e10baf" />
+      <Label layoutX="125.0" layoutY="177.0" prefHeight="25.0" prefWidth="66.0" text="Last Name" textFill="#e80ba2" />
+      <Label layoutX="139.0" layoutY="218.0" prefHeight="25.0" prefWidth="66.0" text="A/C" textFill="#d303a6" />
+      <Label layoutX="125.0" layoutY="255.0" prefHeight="25.0" prefWidth="94.0" text="Current Amount" textFill="#c710b0" />
+      <Label fx:id="firstname" layoutX="226.0" layoutY="140.0" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: #E6E6FA;" />
+      <Label fx:id="lastname" layoutX="223.0" layoutY="177.0" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: #E6E6FA;" />
+      <Label fx:id="accountnumber" layoutX="223.0" layoutY="218.0" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: #E6E6FA;" />
+      <Label fx:id="currentamount" layoutX="223.0" layoutY="255.0" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: #E6E6FA;" />
+      <Button fx:id="SHOW" layoutX="243.0" layoutY="320.0" mnemonicParsing="false" onAction="#SHOW" style="-fx-background-color: #8B008B;" text="SHOW" textFill="#b5aeae" />
+   </children>
+</AnchorPane>

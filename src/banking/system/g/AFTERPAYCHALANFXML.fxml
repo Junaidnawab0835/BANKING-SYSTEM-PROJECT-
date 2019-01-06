@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="505.0" prefWidth="344.0" style="-fx-border-style: solid; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.AFTERPAYCHALANFXMLController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="73.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="285.0" layoutX="30.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/UEIT_CompSciencesIT1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="15.0" layoutY="126.0" prefHeight="28.0" prefWidth="80.0" text="ROLL NO*" />
+      <Label fx:id="rollno" layoutX="133.0" layoutY="126.0" prefHeight="28.0" prefWidth="110.0" text="label" />
+      <Label layoutX="15.0" layoutY="172.0" prefHeight="28.0" prefWidth="110.0" text="ACCOUNTNUMBER*" />
+      <Label fx:id="useraccountnumber" layoutX="133.0" layoutY="172.0" prefHeight="28.0" prefWidth="110.0" text="label" />
+      <Label layoutX="15.0" layoutY="225.0" prefHeight="28.0" prefWidth="110.0" text="UNIVERSITY A/C*" />
+      <Label layoutX="133.0" layoutY="225.0" prefHeight="28.0" prefWidth="110.0" text="95499176" />
+      <Label layoutX="15.0" layoutY="269.0" prefHeight="28.0" prefWidth="110.0" text="CNIC*" />
+      <Label fx:id="cnic" layoutX="125.0" layoutY="269.0" prefHeight="28.0" prefWidth="110.0" text="label" />
+      <Label layoutX="15.0" layoutY="314.0" prefHeight="28.0" prefWidth="110.0" text="CHALLAN FEE" />
+      <Label layoutX="125.0" layoutY="314.0" prefHeight="28.0" prefWidth="110.0" text="RS 40,000/" />
+      <ImageView fitHeight="76.0" fitWidth="138.0" layoutX="235.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/images.png" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="243.0" layoutY="448.0" startX="-100.0" />
+      <Label layoutX="188.0" layoutY="457.0" prefHeight="17.0" prefWidth="144.0" text="Vice CHancellor Of KFUEIT" />
+   </children>
+</AnchorPane>

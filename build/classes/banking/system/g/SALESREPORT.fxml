@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.SALESREPORTController">
+   <children>
+      <BarChart fx:id="bar" layoutX="-5.0" prefHeight="400.0" prefWidth="600.0" title="SALES REPORT">
+        <xAxis>
+          <CategoryAxis label="CASH" side="BOTTOM" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Button fx:id="HOME" layoutX="504.0" layoutY="14.0" mnemonicParsing="false" onAction="#HOME" style="-fx-background-color: #8B008B;" text="HOME" textFill="#fff8f8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

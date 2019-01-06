@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="537.0" prefWidth="621.0" style="-fx-background-color: #dee2e8;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.CUSTOMERController">
+   <children>
+      <ImageView fitHeight="349.0" fitWidth="645.0" layoutX="1.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/8ecb8b5c10a19ccbe1daba7bc38ec77cw-c323171xd-w685_h860_q80.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="TABLxEVIEW" layoutX="1.0" layoutY="30.0" prefHeight="343.0" prefWidth="621.0" style="-fx-background-color: #a7bacc;">
+        <columns>
+          <TableColumn fx:id="C1" prefWidth="75.0" text="FIRSTNAME" />
+          <TableColumn fx:id="C2" prefWidth="75.0" text="LASTNAME" />
+            <TableColumn fx:id="C3" prefWidth="146.0" text="CNIC" />
+            <TableColumn fx:id="C4" prefWidth="89.0" text="ADDRESS" />
+            <TableColumn fx:id="C5" prefWidth="70.0" text="A/C" />
+            <TableColumn fx:id="C6" prefWidth="84.0" text="AMOUNT" />
+            <TableColumn fx:id="C7" prefWidth="81.0" text="DATE" />
+        </columns>
+      </TableView>
+      <Button fx:id="DELETEBUTTON" layoutX="1.0" layoutY="428.0" mnemonicParsing="false" onAction="#DELETBUTTON" prefHeight="25.0" prefWidth="142.0" style="-fx-background-color: #a7bacc;" text="DELETE" />
+      <TextField fx:id="DELETENTERY" layoutX="1.0" layoutY="386.0" prefHeight="25.0" prefWidth="158.0" promptText="             ENTER A/C" />
+      <Button fx:id="EDIT" layoutX="335.0" layoutY="386.0" mnemonicParsing="false" onAction="#EDIT" style="-fx-background-color: #a7bacc;" text="EDIT" />
+      <ChoiceBox fx:id="EDITBOX" layoutX="392.0" layoutY="386.0" prefWidth="150.0" />
+      <TextField fx:id="EDITTEXT" layoutX="393.0" layoutY="462.0" promptText="            EDIT TEXT" />
+      <TextField fx:id="EDITTEXT2" layoutX="393.0" layoutY="422.0" promptText="         USER  A/C" />
+      <Button fx:id="HOME" layoutX="5.0" layoutY="3.0" mnemonicParsing="false" onAction="#HOME" style="-fx-background-color: #a7bacc;" text="Home" />
+      <Button fx:id="UPDATE" layoutX="542.0" layoutY="3.0" mnemonicParsing="false" onAction="#UPDATE" style="-fx-background-color: #a7bacc;" text="UPDATE" />
+   </children>
+</AnchorPane>

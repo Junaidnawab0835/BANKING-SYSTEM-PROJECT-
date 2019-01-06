@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="481.0" prefWidth="571.0" style="-fx-background-color: #E6E6FA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="121.0" fitWidth="348.0" layoutX="101.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/2000px-Axis_Bank_logo.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="password" layoutX="179.0" layoutY="241.0" prefHeight="25.0" prefWidth="178.0" promptText="Passwiord" />
+      <TextField fx:id="username" layoutX="179.0" layoutY="195.0" prefHeight="25.0" prefWidth="178.0" promptText="Username" />
+      <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="139.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/user-png-icon-black-businessman-icon-256.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="139.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/if_icons_password_1564520.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="signup" layoutX="221.0" layoutY="314.0" mnemonicParsing="false" onAction="#signup" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #8B008B;" text="Sign In" textFill="#ebe5e5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Hyperlink layoutX="208.0" layoutY="279.0" text="Forget password ?" textFill="#8a0707" />
+      <Label layoutY="442.0" prefHeight="23.0" prefWidth="563.0" text="Registered @copyright.For more details visit our website www.axisbank..org.com." />
+      <Label layoutY="463.0" prefHeight="17.0" prefWidth="146.0" text="Helpline:UAN 111-187-444." />
+      <Label fx:id="checklogin" layoutX="179.0" layoutY="220.0" prefHeight="17.0" prefWidth="178.0" textFill="#eb0909" />
+      <Label fx:id="checklogin2" layoutX="179.0" layoutY="269.0" prefHeight="17.0" prefWidth="146.0" textFill="#eb0707" />
+      <CheckBox fx:id="USER" layoutX="178.0" layoutY="167.0" mnemonicParsing="false" onAction="#USER" text="USER MODE" />
+   </children>
+</AnchorPane>

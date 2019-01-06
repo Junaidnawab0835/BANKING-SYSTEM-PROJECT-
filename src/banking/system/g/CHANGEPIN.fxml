@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="452.0" prefWidth="572.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.CHANGEPINController">
+   <children>
+      <Pane prefHeight="70.0" prefWidth="572.0" style="-fx-background-color: #E6E6FA;">
+         <children>
+            <ImageView fitHeight="53.0" fitWidth="150.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/2000px-Axis_Bank_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="382.0" fitWidth="600.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/currency-us-dollars-related-eraser-wooden-board-background-success-85648328.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="OLDERPIN" layoutX="180.0" layoutY="146.0" promptText="OLDER PIN" />
+      <TextField fx:id="NEWPIN" layoutX="180.0" layoutY="185.0" promptText="NEW PIN" />
+      <Label layoutX="111.0" layoutY="146.0" prefHeight="25.0" prefWidth="53.0" text="OLD PIN*" textFill="#d01294" />
+      <Label layoutX="111.0" layoutY="185.0" prefHeight="25.0" prefWidth="60.0" text="NEW PIN*" textFill="#d01294" />
+      <TextField fx:id="CONFIRMPIN" layoutX="180.0" layoutY="226.0" promptText="CONFIRM PIN" />
+      <Label layoutX="77.0" layoutY="226.0" prefHeight="25.0" prefWidth="91.0" text="CONFORIM PIN*" textFill="#d01294" />
+      <Button fx:id="CHANGE" layoutX="234.0" layoutY="314.0" mnemonicParsing="false" onAction="#CHANGE" text="CHANGE" textFill="#da1aba" />
+      <Button fx:id="HOME" layoutX="463.0" layoutY="103.0" mnemonicParsing="false" onAction="#HOME" text="HOME" textFill="#eb0eb7" />
+   </children>
+</AnchorPane>

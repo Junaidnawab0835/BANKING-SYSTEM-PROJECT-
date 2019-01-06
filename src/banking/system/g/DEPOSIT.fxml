@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="401.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.DEPOSITController">
+   <children>
+      <Pane prefHeight="73.0" prefWidth="594.0" style="-fx-background-color: #E6E6FA;">
+         <children>
+            <ImageView fitHeight="48.0" fitWidth="200.0" layoutX="11.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/2000px-Axis_Bank_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="339.0" fitWidth="594.0" layoutY="70.0" opacity="0.78" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/bitcoins.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="CNICDESPOSIT" layoutX="148.0" layoutY="118.0" prefHeight="25.0" prefWidth="170.0" promptText="CNIC" />
+      <Label layoutX="67.0" layoutY="118.0" prefHeight="25.0" prefWidth="74.0" text="          CNIC*" textFill="#e30bb6" />
+      <TextField fx:id="AMOUNTDEPOSIT" layoutX="148.0" layoutY="188.0" prefHeight="25.0" prefWidth="170.0" promptText="AMOUNT" />
+      <Label layoutX="74.0" layoutY="188.0" prefHeight="25.0" prefWidth="74.0" text="    AMOUNT*" textFill="#e30bb6" />
+      <Button fx:id="DEPOSIT" layoutX="244.0" layoutY="260.0" mnemonicParsing="false" onAction="#DEPOSIT" opacity="0.58" prefHeight="25.0" prefWidth="74.0" text="DEPOSIT" textFill="#db0ba3" />
+      <Button fx:id="HOME" layoutX="458.0" layoutY="105.0" mnemonicParsing="false" onAction="#HOME" text="HOME" textFill="#d30e7e" />
+      <Label layoutX="33.0" layoutY="155.0" prefHeight="25.0" prefWidth="115.0" text="ACCOUNT NUMBER*" textFill="#e30bb6" />
+      <Label fx:id="label" layoutX="148.0" layoutY="155.0" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: white;" text="Label" />
+   </children>
+</AnchorPane>

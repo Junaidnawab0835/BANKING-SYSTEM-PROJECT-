@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="580.0" prefWidth="730.0" style="-fx-background-color: #EB1165;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.FXML2Controller">
+   <children>
+      <Pane prefHeight="59.0" prefWidth="730.0" style="-fx-background-color: #E6E6FA;">
+         <children>
+            <ImageView fitHeight="59.0" fitWidth="200.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/2000px-Axis_Bank_logo.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="label" layoutX="480.0" layoutY="15.0" prefHeight="31.0" prefWidth="233.0" text="WELCOME:">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="133.0" fitWidth="134.0" layoutX="38.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/if_constr_account_statements_1267308.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="CREATACCOUNT" layoutX="37.0" layoutY="218.0" mnemonicParsing="false" onAction="#CREATACCOUNT" prefHeight="25.0" prefWidth="133.0" style="-fx-background-color: #EB1165;" text="CREAT ACCOUNT" textFill="#14a3c3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="133.0" fitWidth="189.0" layoutX="274.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/if_11_1320809.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="SALESREPORT" layoutX="280.0" layoutY="218.0" mnemonicParsing="false" onAction="#SALESREPORT" opacity="0.49" prefHeight="25.0" prefWidth="122.0" style="-fx-background-color: #EB1165;" text="SALES REPORT" textFill="#0dc9cd">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="125.0" fitWidth="122.0" layoutX="498.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/if_Account_albums_screens_tabs_1886179.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="171.0" layoutX="39.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/if_document-05_1622831.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="CUSTOMER" layoutX="38.0" layoutY="456.0" mnemonicParsing="false" onAction="#CUSTOMER" opacity="0.66" prefHeight="25.0" prefWidth="134.0" style="-fx-background-color: #EB1165;" text="CUSTOMER" textFill="#22e1e4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="SIGNOUT" layoutX="631.0" layoutY="79.0" mnemonicParsing="false" onAction="#SIGNOUT" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #8B008B;" text="Sign Out" textFill="#e4d6e1" />
+      <Button fx:id="CONSOLIDATEACCOUNT" layoutX="479.0" layoutY="218.0" mnemonicParsing="false" onAction="#CONSOLIDATEACCOUNT" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: #EB1165;" text="CONSOLIDATE ACCOUNT" textFill="#424ea4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="DATEOFBIRTH" opacity="0.81" prefHeight="547.0" prefWidth="638.0" style="-fx-background-color: #EB1165;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="banking.system.g.CREATACCOUNTController">
+   <children>
+      <Label layoutX="123.0" layoutY="66.0" prefHeight="56.0" prefWidth="369.0" text="Create Your Bank Account" textFill="#464242">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="FIRSTNAME" layoutX="132.0" layoutY="148.0" prefHeight="25.0" prefWidth="174.0" promptText="First Name" />
+      <TextField fx:id="LASTNAME" layoutX="132.0" layoutY="188.0" prefHeight="25.0" prefWidth="174.0" promptText="Last name" />
+      <TextField fx:id="CNIC" layoutX="132.0" layoutY="279.0" prefHeight="25.0" prefWidth="176.0" promptText="CNIIC" />
+      <TextField fx:id="ADDRESS" layoutX="132.0" layoutY="226.0" prefHeight="33.0" prefWidth="174.0" />
+      <Label layoutX="16.0" layoutY="148.0" prefHeight="25.0" prefWidth="85.0" text="First Name*" />
+      <Label layoutX="16.0" layoutY="188.0" prefHeight="25.0" prefWidth="85.0" text="Last Name*" />
+      <Label layoutX="12.0" layoutY="229.0" prefHeight="25.0" prefWidth="111.0" text="Parmanent Address*" />
+      <Label layoutX="13.0" layoutY="283.0" prefHeight="17.0" prefWidth="42.0" text="CNIC*" />
+      <Pane prefHeight="67.0" prefWidth="638.0" style="-fx-background-color: #E6E6FA;">
+         <children>
+            <ImageView fitHeight="67.0" fitWidth="186.0" layoutX="7.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/2000px-Axis_Bank_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="-9.0" layoutY="374.0" prefHeight="25.0" prefWidth="85.0" text="       PIN*" />
+      <Label layoutX="12.0" layoutY="423.0" prefHeight="17.0" prefWidth="60.0" text="Date*" />
+      <Label layoutX="12.0" layoutY="326.0" prefHeight="25.0" prefWidth="128.0" text="Account Number A/C*" />
+      <TextField fx:id="PIN" layoutX="132.0" layoutY="374.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button fx:id="SUBMIT" layoutX="258.0" layoutY="485.0" mnemonicParsing="false" onAction="#SUBMIT" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #FFC0CB;" text="SUBMIT" />
+      <DatePicker fx:id="DATE" layoutX="133.0" layoutY="419.0" />
+      <Button fx:id="HOMEBUTTON" layoutX="543.0" layoutY="81.0" mnemonicParsing="false" onAction="#HOMEBUTTON" style="-fx-background-color: #FFC0CB;" text="HOME" />
+      <Label fx:id="label" layoutX="132.0" layoutY="326.0" prefHeight="25.0" prefWidth="174.0" style="-fx-background-color: white;" text="Label" />
+   </children>
+</AnchorPane>
